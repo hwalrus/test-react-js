@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "Simple node hello world example",
   "main": "index.js",
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --silent --parallel security-check open:src lint:watch",
